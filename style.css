@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #CFD8DC;
+    background-repeat: no-repeat;
+}
+
+body .container-fluid {
+    color: white;
+    text-shadow: 1px 2px 5px #000;
+}
+
+.title {
+    margin: 50px auto auto auto;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    color: #202020;
+    box-shadow: 2px 2px 5px #373737;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(255, 249, 238);
+}
+
+.card {
+    background-image: url('images/rainy.webp');
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #9E9E9E;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.time-font {
+    font-size: 80px;
+}
+
+.sm-font {
+    font-size: 60px;
+    padding-left: 10px;
+}
+
+.med-font {
+    font-size: 28px;
+}
+
+.large-font {
+    font-size: 60px;
+}
+
+.date-font{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
